@@ -45,8 +45,8 @@ export class CheckBoxComponent implements OnInit {
       r[a.key] = [...r[a.key] || [], a.data];
       return r;
     }, {});
-
     console.log("group", group);
+
 
   }
 }
